@@ -25,14 +25,14 @@ from web3 import Web3, IPCProvider, exceptions
 from web3.middleware import geth_poa_middleware
 
 
-#you need a quicknode endpoint, not working with public endpoints
+#you need a quicknode endpoint
 #
 # https://bit.ly/free-quicknode-signup
 #
 
 
 #ENTER HERE YOUR QUICKNODE ENDPONT
-quick_node_http_endpoint = "<insert your quicknode endpoint here"
+quick_node_http_endpoint = "<insert your quicknode endpoint here>"
 
 
 #connect to node
